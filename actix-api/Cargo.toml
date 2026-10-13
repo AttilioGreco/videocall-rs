@@ -67,7 +67,7 @@ web-transport-quinn = { workspace = true }
 chrono = "0.4"
 url = "2"
 serial_test = "3"
-sqlx = { version = "0.8", features = ["runtime-tokio", "postgres", "chrono"] }
+sqlx = { version = "0.8", features = ["runtime-tokio", "tls-rustls-ring-webpki", "postgres", "chrono"] }
 videocall-types = { path = "../videocall-types", version = "6.0.1", features = ["testing"] }
 tokio-tungstenite = { version = "0.24", features = ["native-tls"] }
 futures-util = "0.3"
