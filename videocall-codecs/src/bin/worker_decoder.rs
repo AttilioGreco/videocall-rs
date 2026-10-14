@@ -16,7 +16,7 @@
  * conditions.
  */
 
-#![no_main]
+#![cfg_attr(target_arch = "wasm32", no_main)]
 /*
  * Copyright 2025 Security Union LLC
  *
